@@ -1,0 +1,4 @@
+@{ ViewData["Title"] = "Ingressos"; }
+<h1>Ingressos</h1>
+<div class="grid"><div class="card"><h3>Inteira</h3><p>R$ 35,00</p></div><div class="card"><h3>Meia-entrada</h3><p>R$ 17,50</p></div><div class="card"><h3>Sessão especial</h3><p>R$ 45,00</p></div></div>
+@section Menu { <a asp-controller="Cinema" asp-action="Index">Início</a><a asp-controller="Cinema" asp-action="Filmes">Filmes</a><a asp-controller="Cinema" asp-action="Ingressos">Ingressos</a> }

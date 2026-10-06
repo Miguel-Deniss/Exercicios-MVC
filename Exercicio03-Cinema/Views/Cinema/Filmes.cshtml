@@ -1,0 +1,4 @@
+@{ ViewData["Title"] = "Filmes"; }
+<h1>Filmes</h1>
+<table class="table"><tr><th>Nome</th><th>Gênero</th><th>Classificação</th><th>Horário</th></tr><tr><td>Aventura Final</td><td>Ação</td><td>12 anos</td><td>18:00</td></tr><tr><td>Horizonte</td><td>Drama</td><td>14 anos</td><td>19:30</td></tr><tr><td>Galáxia</td><td>Ficção</td><td>10 anos</td><td>20:00</td></tr><tr><td>Mistério</td><td>Suspense</td><td>16 anos</td><td>21:00</td></tr><tr><td>O Caminho</td><td>Aventura</td><td>Livre</td><td>17:00</td></tr></table>
+@section Menu { <a asp-controller="Cinema" asp-action="Index">Início</a><a asp-controller="Cinema" asp-action="Filmes">Filmes</a><a asp-controller="Cinema" asp-action="Ingressos">Ingressos</a> }
