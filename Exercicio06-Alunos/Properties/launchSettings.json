@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Exercicio06-Alunos": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:54340;http://localhost:54344"
+    }
+  }
+}

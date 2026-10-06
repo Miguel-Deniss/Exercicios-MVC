@@ -1,0 +1,4 @@
+@{ ViewData["Title"] = "Detalhes"; }
+<h1>Detalhes</h1>
+<div class="card"><p>ID: @Model.Id</p><p>Nome: @Model.Nome</p><p>Idade: @Model.Idade</p><p>Curso: @Model.Curso</p></div>
+@section Menu { <a asp-controller="Aluno" asp-action="Index">Alunos</a><a asp-controller="Aluno" asp-action="Detalhes">Detalhes</a> }

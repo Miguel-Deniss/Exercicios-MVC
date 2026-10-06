@@ -1,0 +1,4 @@
+@{ ViewData["Title"] = "Index"; }
+<h1>Index</h1>
+<table class="table"><tr><th>ID</th><th>Nome</th><th>Idade</th><th>Curso</th></tr><tr><td>1</td><td>Ana</td><td>16</td><td>DS</td></tr><tr><td>2</td><td>Bruno</td><td>17</td><td>DS</td></tr><tr><td>3</td><td>Carla</td><td>16</td><td>Administração</td></tr><tr><td>4</td><td>Diego</td><td>18</td><td>Eletrônica</td></tr><tr><td>5</td><td>Eduarda</td><td>17</td><td>DS</td></tr><tr><td>6</td><td>Felipe</td><td>18</td><td>Mecânica</td></tr><tr><td>7</td><td>Gabriela</td><td>16</td><td>Administração</td></tr><tr><td>8</td><td>Henrique</td><td>17</td><td>DS</td></tr></table>
+@section Menu { <a asp-controller="Aluno" asp-action="Index">Alunos</a><a asp-controller="Aluno" asp-action="Detalhes">Detalhes</a> }
