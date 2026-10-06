@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Exercicio11-SistemaNotas": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:54351;http://localhost:54355"
+    }
+  }
+}

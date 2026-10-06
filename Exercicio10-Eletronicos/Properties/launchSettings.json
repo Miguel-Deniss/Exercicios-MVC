@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Exercicio10-Eletronicos": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:54349;http://localhost:54352"
+    }
+  }
+}
