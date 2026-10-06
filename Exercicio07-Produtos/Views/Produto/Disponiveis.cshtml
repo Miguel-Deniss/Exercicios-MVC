@@ -1,0 +1,4 @@
+@{ ViewData["Title"] = "Disponiveis"; }
+<h1>Disponiveis</h1>
+<div class="card"><p>Esta página exibe apenas produtos com estoque maior que zero.</p></div>
+@section Menu { <a asp-controller="Produto" asp-action="Index">Produtos</a><a asp-controller="Produto" asp-action="Disponiveis">Disponíveis</a> }
