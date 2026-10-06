@@ -1,0 +1,4 @@
+@{ ViewData["Title"] = "Dashboard"; }
+<h1>Dashboard</h1>
+<div class="grid"><div class="card"><h3>Total</h3><p>15</p></div><div class="card"><h3>Ativos</h3><p>12</p></div><div class="card"><h3>Inativos</h3><p>3</p></div><div class="card"><h3>Média salarial</h3><p>R$ 4.153,33</p></div><div class="card"><h3>Maior salário</h3><p>R$ 7.200,00</p></div><div class="card"><h3>Menor salário</h3><p>R$ 1.800,00</p></div><div class="card"><h3>Departamentos</h3><p>TI: 4 · Financeiro: 2 · RH: 3 · Comercial: 2 · Marketing: 2 · Produção: 2</p></div></div>
+@section Menu { <a asp-controller="Funcionario" asp-action="Dashboard">Dashboard</a><a asp-controller="Funcionario" asp-action="Index">Todos</a><a asp-controller="Funcionario" asp-action="Ativos">Ativos</a><a asp-controller="Funcionario" asp-action="Inativos">Inativos</a><a asp-controller="Funcionario" asp-action="Departamento">Departamento</a> }

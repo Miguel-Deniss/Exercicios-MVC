@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Exercicio13-SistemaPedidos": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:54362;http://localhost:54363"
+    }
+  }
+}
